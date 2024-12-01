@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* HEADER */
+
+/*texto de header*/
+.nombre-header {
+  font-size: 40px;
+  margin-left: 630px;
+  padding-top: 35px;
+  color: rgba(29, 27, 27, 0.515);
+  letter-spacing: 5px;
+
+  /* tipografia header */
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+}
+
+/*caja de header*/
+header {
+  background-color: rgba(243, 243, 243, 0.399);
+  width: 100%;
+  height: 70px;
+}
+
+/*NAV*/
+
+/*lista de nav*/
+ul {
+  display: flex;
+  align-items: center;
+  padding-left: 330px;
+  padding-top: 30px;
+  background-color: rgba(243, 243, 243, 0.399);
+}
+
+li {
+  list-style: none;
+  float: right;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 18px;
+  display: flex;
+  color: rgba(29, 27, 27, 0.448);
+  cursor: pointer;
+  letter-spacing: 1px;
+
+  /* tipografia nav */
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: ;
+}
+
+/*MAIN*/
+
+/*section-portada*/
+.portada-principal {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+/*Imagen principal portada*/
+.imagen-portada {
+  width: 137%;
+  height: 900px;
+  margin-left: -500px;
+  margin-top: -74px;
+  z-index: 1;
+}
+
+/*Texto de portada*/
+.texto-pequeño-portada {
+  font-size: 25px;
+  margin-left: -50px;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 2;
+  margin-top: -700px;
+
+  /* tipografia portada */
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.texto-pequeño-portada2 {
+  font-size: 25px;
+  margin-top: -25px;
+  margin-left: -50px;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 2;
+
+  /* tipografia portada */
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.nombre-principal {
+  font-size: 150px;
+  letter-spacing: 2px;
+  margin-left: -50px;
+  z-index: 2;
+  color: white;
+  /* 1.1 tipografia portada */
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.nombre-principal2 {
+  font-size: 150px;
+  letter-spacing: 2px;
+  margin-top: -80px;
+  margin-left: -50px;
+  z-index: 2;
+  color: white;
+  /* tipografia portada */
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+}
+
+/* section-biografia*/
+
+.texto-pequeño-biografia {
+  margin-top: 450px;
+  margin-left: 200px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  /* tipografia portada */
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.texto-subtitulo {
+}
+
+.texto-parrafo {
+}
