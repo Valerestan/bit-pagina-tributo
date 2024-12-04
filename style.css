@@ -183,10 +183,9 @@ li:hover {
   line-height: 1.3;
 
 /* tipografia parrafo*/
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: bold;
 }
 
 
@@ -215,9 +214,10 @@ li:hover {
   font-style: normal;
 }
 
-
+/* cuadro 1  */
+.ac
 .actos {
-  margin-top: -9px;
+  margin-top: -550px;
   margin-left: 200px;
   border-radius: 35px;
   width: 370px;
@@ -227,12 +227,143 @@ li:hover {
 }
 
 .imagen-1{
+  position: absolute;
+  transform: translate(-0%, -12%);
   border-radius: 35px;
   width: 320px;
   height: 200px;
- justify-content: center;
- align-items: center;
- margin-top: 20px;
- margin-left: 225px;
+  left: 225px;
+  margin-top:-200px;
 }
 
+.texto-actos-1{
+  margin-top: -400px;
+  margin-left: 230px;
+  font-size: 19px ;
+  /* tipografia parrafo*/
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parrafo1{
+margin-left: 230px;
+margin-top: 13px;
+font-size: 15px;
+  /* tipografia parrafo1*/
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+ 
+.punto::before{
+  content: "• • •";
+  font-size: 28px;
+  letter-spacing: -1px;
+  margin-right: 10px;
+  margin-left: 230px ;
+  margin-top: 2px;
+}
+
+/* cuadro 2  */
+
+.actos2 {
+  margin-top: 240px;
+  margin-left: 600px;
+  border-radius: 35px;
+  width: 370px;
+  height: 450px;
+  background-color: white;
+}
+
+.imagen-2{
+  position: absolute;
+  transform: translate(-0%, -12%);
+  border-radius: 35px;
+  width: 320px;
+  height: 200px;
+  left: 625px;
+  margin-top:-200px;
+}
+
+.texto-actos-2{
+  margin-top: -400px;
+  margin-left: 630px;
+  font-size: 19px ;
+  /* tipografia parrafo*/
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parrafo2{
+margin-left: 630px;
+margin-top: 13px;
+font-size: 15px;
+  /* tipografia parrafo1*/
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+ 
+.punto2::before{
+  content: "• • •";
+  font-size: 28px;
+  letter-spacing: -1px;
+  margin-right: 10px;
+  margin-left: 630px ;
+  margin-top: 2px;
+}
+
+/* cuadro 3  */
+
+.actos3 {
+  margin-top: -210px;
+  margin-left: 996px;
+  border-radius: 35px;
+  width: 370px;
+  height: 450px;
+  background-color: white;
+
+}
+
+.imagen-3{
+  position: absolute;
+  transform: translate(313%, -12%);
+  border-radius: 35px;
+  width: 320px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top:-200px;
+}
+
+.texto-actos-3{
+  margin-top: -400px;
+  margin-left: 630px;
+  font-size: 19px ;
+  transform: translate(45%);
+  /* tipografia parrafo*/
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.parrafo3{
+margin-left: 630px;
+margin-top: 13px;
+font-size: 15px;
+ transform: translate(45%);
+  /* tipografia parrafo1*/
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+ 
+.punto3::before{
+  content: "• • •";
+  font-size: 28px;
+  letter-spacing: -1px;
+  margin-right: 10px;
+  margin-left: 1030px ;
+  margin-top: 2px;
+}
