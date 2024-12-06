@@ -1,7 +1,8 @@
-# ADAS LOVELACE
+# PAGINA TRIBUTO SOBRE: ADA LOVELACE
 ---
 
-Proyecto HTML, primer mujer programadora de la historia.
+Este Proyecto es parte de mi formación en BIT, y esta pagina a rendir tributo a lo que hizo Ada Lovelace
+
 
 Autora
-Valentina Restan
+Valentina Restan Munera
